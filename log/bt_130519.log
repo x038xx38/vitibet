@@ -1,0 +1,438 @@
+[13.05.19 00:11:11] bt_main.py:91 INFO - ARGV      : []
+[13.05.19 00:11:11] bt_main.py:93 INFO - OPTIONS   : []
+[13.05.19 00:11:11] bt_main.py:18 INFO - Loading games from vitibet.com
+[13.05.19 00:11:12] bt_analysis.py:51 INFO - URL - http://www.vitibet.com/index.php?clanek=quicktips&sekce=fotbal&lang=en
+[13.05.19 00:11:12] bt_analysis.py:52 INFO - Response code - 200
+[13.05.19 00:11:12] bt_funcfile.py:11 INFO - File created successfully - db/vitibet_130519.csv
+[13.05.19 00:11:12] bt_main.py:23 INFO - Time to loading 1.0 seconds
+[13.05.19 00:11:12] bt_main.py:25 INFO - Loading games from livescore.in
+[13.05.19 00:11:14] bt_analysis.py:98 INFO - Google Chrome run in mode --headless
+[13.05.19 00:11:18] bt_analysis.py:100 INFO - URL - http://www.livescore.in/free/721594/
+[13.05.19 00:11:18] bt_analysis.py:102 INFO - The process of downloading data for 13/05 Mon ...
+[13.05.19 00:11:19] bt_analysis.py:110 INFO - Data for ['13/05 Mo'] uploaded successfully
+[13.05.19 00:11:20] bt_analysis.py:117 INFO - List of games for ['13/05 Mo'] created. Count of games - 127
+[13.05.19 00:11:20] bt_analysis.py:119 INFO - The process of downloading data for 14/05 Tue ...
+[13.05.19 00:11:21] bt_analysis.py:129 INFO - Data ['14/05 Tu'] uploaded successfully
+[13.05.19 00:11:22] bt_analysis.py:135 INFO - List of games for ['14/05 Tu'] created. Total count of games - 212
+[13.05.19 00:11:25] bt_funcfile.py:11 INFO - File created successfully - db/livescore_130519.csv
+[13.05.19 00:11:25] bt_main.py:33 INFO - Time to loading 12.8 seconds
+[13.05.19 00:11:25] bt_main.py:35 INFO - Search for identical games in downloaded data
+[13.05.19 00:11:25] bt_analysis.py:174 INFO - Number of games found - 0
+[13.05.19 00:11:25] bt_analysis.py:187 INFO - Not found games deleted
+[13.05.19 00:11:25] bt_analysis.py:204 INFO - Index deleted
+[13.05.19 00:11:25] bt_analysis.py:222 INFO - Datetime updated
+[13.05.19 00:11:25] bt_funcfile.py:11 INFO - File created successfully - db/vitilive_130519.csv
+[13.05.19 00:11:25] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_130519.csv
+[13.05.19 00:11:25] bt_funcfile.py:11 INFO - File created successfully - db/join_130519.csv
+[13.05.19 00:11:25] bt_funcfile.py:40 INFO - File read successfully - db/join_130519.csv
+[13.05.19 00:11:25] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 00:11:25] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 00:11:25] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 00:11:25] client.py:777 INFO - Refreshing access_token
+[13.05.19 00:11:27] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets?alt=json
+[13.05.19 00:11:29] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/drive/v3/rest
+[13.05.19 00:11:29] discovery.py:873 INFO - URL being requested: POST https://www.googleapis.com/drive/v3/files/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/permissions?fields=id&alt=json
+[13.05.19 00:11:30] bt_main.py:80 INFO - Create new spreadsheetId
+[13.05.19 00:11:30] bt_funcfile.py:19 INFO - File created successfully - db/list_googlesheets.csv
+[13.05.19 00:11:30] bt_main.py:83 INFO - SpreadsheetId write in file "list_googlesheets.csv"
+[13.05.19 00:11:30] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 00:45:00] bt_main.py:91 INFO - ARGV      : ['--updodd']
+[13.05.19 00:45:00] bt_main.py:93 INFO - OPTIONS   : [('--updodd', '')]
+[13.05.19 00:45:00] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_130519.csv
+[13.05.19 00:45:00] bt_funcfile.py:11 INFO - File created successfully - db/join_130519.csv
+[13.05.19 00:45:00] bt_funcfile.py:40 INFO - File read successfully - db/join_130519.csv
+[13.05.19 00:45:00] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 00:45:00] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 00:45:00] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 00:45:00] client.py:777 INFO - Refreshing access_token
+[13.05.19 00:45:02] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4?alt=json
+[13.05.19 00:45:03] bt_main.py:71 INFO - Use spreadsheet 19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4
+[13.05.19 00:45:03] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 01:45:00] bt_main.py:91 INFO - ARGV      : ['--updodd']
+[13.05.19 01:45:00] bt_main.py:93 INFO - OPTIONS   : [('--updodd', '')]
+[13.05.19 01:45:00] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_130519.csv
+[13.05.19 01:45:00] bt_funcfile.py:11 INFO - File created successfully - db/join_130519.csv
+[13.05.19 01:45:00] bt_funcfile.py:40 INFO - File read successfully - db/join_130519.csv
+[13.05.19 01:45:00] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 01:45:00] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 01:45:00] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 01:45:00] client.py:777 INFO - Refreshing access_token
+[13.05.19 01:45:02] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4?alt=json
+[13.05.19 01:45:04] bt_main.py:71 INFO - Use spreadsheet 19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4
+[13.05.19 01:45:04] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 02:00:00] bt_main.py:91 INFO - ARGV      : ['--finish']
+[13.05.19 02:00:00] bt_main.py:93 INFO - OPTIONS   : [('--finish', '')]
+[13.05.19 02:00:00] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_120519.csv
+[13.05.19 02:00:00] bt_analysis.py:245 INFO - Get odds for the match x2s8b3rn
+[13.05.19 02:00:03] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.66', '3.23', '2.54', 'Winline.ru']
+[13.05.19 02:00:03] bt_analysis.py:245 INFO - Get odds for the match hfLGj0n4
+[13.05.19 02:00:06] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.51', '4.08', '5.17', 'Winline.ru']
+[13.05.19 02:00:06] bt_analysis.py:245 INFO - Get odds for the match th7MLChE
+[13.05.19 02:00:07] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.98', '3.92', '3.44', 'Winline.ru']
+[13.05.19 02:00:08] bt_analysis.py:245 INFO - Get odds for the match SlJvcTFD
+[13.05.19 02:00:09] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '3.21', '3.65', '2.16', 'Winline.ru']
+[13.05.19 02:00:09] bt_analysis.py:245 INFO - Get odds for the match 0fJEXo4B
+[13.05.19 02:00:11] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '5.38', '4.27', '1.59', 'Winline.ru']
+[13.05.19 02:00:11] bt_analysis.py:245 INFO - Get odds for the match WKEAYRl5
+[13.05.19 02:00:13] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.85', '3.39', '4.66', 'Winline.ru']
+[13.05.19 02:00:14] bt_analysis.py:245 INFO - Get odds for the match KrWnFwlp
+[13.05.19 02:00:15] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.06', '3.60', '3.49', 'Winline.ru']
+[13.05.19 02:00:16] bt_analysis.py:245 INFO - Get odds for the match hY3fLF94
+[13.05.19 02:00:16] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '6.45', '3.57', '1.63', 'Winline.ru']
+[13.05.19 02:00:17] bt_analysis.py:245 INFO - Get odds for the match rFYEVRpJ
+[13.05.19 02:00:18] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.09', '3.26', '3.17', 'Winline.ru']
+[13.05.19 02:00:19] bt_analysis.py:245 INFO - Get odds for the match bRW2YT00
+[13.05.19 02:00:19] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.65', '3.64', '4.58', 'Winline.ru']
+[13.05.19 02:00:20] bt_analysis.py:245 INFO - Get odds for the match 0z3l8mdL
+[13.05.19 02:00:21] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.75', '3.77', '4.69', 'Winline.ru']
+[13.05.19 02:00:22] bt_analysis.py:245 INFO - Get odds for the match McXRig7D
+[13.05.19 02:00:23] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.60', '4.12', '4.75', 'Winline.ru']
+[13.05.19 02:00:23] bt_analysis.py:245 INFO - Get odds for the match zRrjlkn9
+[13.05.19 02:00:24] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.29', '5.07', '7.89', 'Winline.ru']
+[13.05.19 02:00:25] bt_analysis.py:245 INFO - Get odds for the match fRZEs1yU
+[13.05.19 02:00:26] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '3.86', '4.20', '1.72', 'Winline.ru']
+[13.05.19 02:00:26] bt_analysis.py:245 INFO - Get odds for the match zccWxyGr
+[13.05.19 02:00:27] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.31', '5.06', '7.32', 'Winline.ru']
+[13.05.19 02:00:28] bt_analysis.py:245 INFO - Get odds for the match trrhuT3R
+[13.05.19 02:00:29] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.39', '5.14', '6.54', 'Winline.ru']
+[13.05.19 02:00:29] bt_analysis.py:245 INFO - Get odds for the match IZRhMmck
+[13.05.19 02:00:30] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.69', '4.34', '4.37', 'Winline.ru']
+[13.05.19 02:00:31] bt_analysis.py:245 INFO - Get odds for the match YHvpskZE
+[13.05.19 02:00:31] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.13', '9.01', '15.00', 'Winline.ru']
+[13.05.19 02:00:32] bt_analysis.py:245 INFO - Get odds for the match pdbkL7Ce
+[13.05.19 02:00:33] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.15', '8.52', '14.00', 'Winline.ru']
+[13.05.19 02:00:33] bt_analysis.py:245 INFO - Get odds for the match C8wlt9lL
+[13.05.19 02:00:34] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.09', '3.88', '3.19', 'Winline.ru']
+[13.05.19 02:00:35] bt_analysis.py:245 INFO - Get odds for the match riUJzmCr
+[13.05.19 02:00:35] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.44', '4.76', '6.20', 'Winline.ru']
+[13.05.19 02:00:36] bt_analysis.py:245 INFO - Get odds for the match QFy3omWR
+[13.05.19 02:00:37] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '8.00', '5.80', '1.26', 'Winline.ru']
+[13.05.19 02:00:38] bt_analysis.py:245 INFO - Get odds for the match WvPrZYAH
+[13.05.19 02:00:38] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '3.65', '3.42', '1.95', 'Winline.ru']
+[13.05.19 02:00:39] bt_analysis.py:245 INFO - Get odds for the match nXbp9TtF
+[13.05.19 02:00:40] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.35', '5.08', '7.68', 'Winline.ru']
+[13.05.19 02:00:40] bt_analysis.py:245 INFO - Get odds for the match AVTNJZk7
+[13.05.19 02:00:41] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.42', '3.60', '2.78', 'Winline.ru']
+[13.05.19 02:00:42] bt_analysis.py:245 INFO - Get odds for the match tdPJKFz1
+[13.05.19 02:00:43] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.38', '3.41', '2.97', 'Winline.ru']
+[13.05.19 02:00:44] bt_analysis.py:245 INFO - Get odds for the match lbpuScrR
+[13.05.19 02:00:44] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.60', '4.22', '5.33', 'Winline.ru']
+[13.05.19 02:00:45] bt_analysis.py:245 INFO - Get odds for the match 4fGzVab8
+[13.05.19 02:00:46] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.38', '5.48', '6.28', 'Winline.ru']
+[13.05.19 02:00:47] bt_analysis.py:245 INFO - Get odds for the match SGkMpIAm
+[13.05.19 02:00:48] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.28', '4.77', '7.89', 'Winline.ru']
+[13.05.19 02:00:48] bt_analysis.py:245 INFO - Get odds for the match 8W8kjvmQ
+[13.05.19 02:00:49] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.02', '10.00', '33.00', 'Winline.ru']
+[13.05.19 02:00:50] bt_analysis.py:245 INFO - Get odds for the match MwkQqxQg
+[13.05.19 02:00:50] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.54', '4.13', '4.81', 'Winline.ru']
+[13.05.19 02:00:51] bt_analysis.py:245 INFO - Get odds for the match UFOgEYGu
+[13.05.19 02:00:52] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '14.00', '7.62', '1.17', 'Winline.ru']
+[13.05.19 02:00:53] bt_analysis.py:245 INFO - Get odds for the match 4hJI8UpH
+[13.05.19 02:00:54] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.39', '4.82', '7.15', 'Winline.ru']
+[13.05.19 02:00:54] bt_analysis.py:245 INFO - Get odds for the match beKKIsCE
+[13.05.19 02:00:55] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.43', '4.61', '6.70', 'Winline.ru']
+[13.05.19 02:00:55] bt_analysis.py:245 INFO - Get odds for the match UD7cQMlC
+[13.05.19 02:00:56] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.77', '3.65', '4.14', 'Winline.ru']
+[13.05.19 02:00:57] bt_analysis.py:245 INFO - Get odds for the match Q9WYGsXl
+[13.05.19 02:00:57] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.31', '3.21', '2.80', 'Winline.ru']
+[13.05.19 02:00:58] bt_analysis.py:245 INFO - Get odds for the match 40VxG1ne
+[13.05.19 02:00:59] bt_analysis.py:263 INFO - Error read odds for match - 40VxG1ne
+[13.05.19 02:00:59] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '-', '-', '-', '']
+[13.05.19 02:00:59] bt_analysis.py:245 INFO - Get odds for the match xIuVd6mm
+[13.05.19 02:01:00] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.55', '4.07', '6.30', 'Winline.ru']
+[13.05.19 02:01:01] bt_analysis.py:245 INFO - Get odds for the match WtWIEwv8
+[13.05.19 02:01:02] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.68', '3.67', '4.73', 'Winline.ru']
+[13.05.19 02:01:03] bt_analysis.py:245 INFO - Get odds for the match lInDdOOC
+[13.05.19 02:01:03] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '12.00', '6.01', '1.16', 'Winline.ru']
+[13.05.19 02:01:04] bt_analysis.py:245 INFO - Get odds for the match bkZjtIms
+[13.05.19 02:01:05] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.29', '5.65', '8.76', 'Winline.ru']
+[13.05.19 02:01:05] bt_analysis.py:245 INFO - Get odds for the match nB5YNzYC
+[13.05.19 02:01:06] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '3.05', '3.32', '2.38', 'Winline.ru']
+[13.05.19 02:01:07] bt_analysis.py:245 INFO - Get odds for the match ll57eyl2
+[13.05.19 02:01:08] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.25', '3.37', '3.35', 'Winline.ru']
+[13.05.19 02:01:08] bt_analysis.py:245 INFO - Get odds for the match 02aYia5O
+[13.05.19 02:01:09] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '24.00', '9.46', '1.06', 'Winline.ru']
+[13.05.19 02:01:10] bt_analysis.py:245 INFO - Get odds for the match WbL6oCQK
+[13.05.19 02:01:11] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.25', '5.85', '10.00', 'Winline.ru']
+[13.05.19 02:01:12] bt_analysis.py:245 INFO - Get odds for the match lGu8QAle
+[13.05.19 02:01:13] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.99', '3.64', '3.81', 'Winline.ru']
+[13.05.19 02:01:13] bt_analysis.py:245 INFO - Get odds for the match ClLMctzk
+[13.05.19 02:01:14] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '10.00', '6.17', '1.24', 'Winline.ru']
+[13.05.19 02:01:14] bt_analysis.py:245 INFO - Get odds for the match zeKSpPfU
+[13.05.19 02:01:15] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.32', '2.22', '5.01', 'Winline.ru']
+[13.05.19 02:01:16] bt_analysis.py:245 INFO - Get odds for the match drQxTcFG
+[13.05.19 02:01:16] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.17', '7.14', '10.00', 'Winline.ru']
+[13.05.19 02:01:17] bt_analysis.py:245 INFO - Get odds for the match 0A1HJNd8
+[13.05.19 02:01:18] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '9.51', '5.97', '1.27', 'Winline.ru']
+[13.05.19 02:01:19] bt_analysis.py:245 INFO - Get odds for the match Wz54Dl0f
+[13.05.19 02:01:19] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.23', '3.67', '3.03', 'Winline.ru']
+[13.05.19 02:01:20] bt_analysis.py:283 INFO - The match - Wz54Dl0f did not start
+[13.05.19 02:01:20] bt_funcfile.py:11 INFO - File created successfully - db/join_120519.csv
+[13.05.19 02:01:20] bt_funcfile.py:40 INFO - File read successfully - db/join_120519.csv
+[13.05.19 02:01:20] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 02:01:20] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 02:01:20] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 02:01:20] client.py:777 INFO - Refreshing access_token
+[13.05.19 02:01:22] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M?alt=json
+[13.05.19 02:01:23] bt_main.py:71 INFO - Use spreadsheet 1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M
+[13.05.19 02:01:23] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M:batchUpdate?alt=json
+[13.05.19 02:01:24] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values:batchUpdate?alt=json
+[13.05.19 02:01:25] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M:batchUpdate?alt=json
+[13.05.19 02:01:25] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B3?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:26] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B5?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:26] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B7?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:27] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B9?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:28] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B11?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:28] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B13?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:29] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B15?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:29] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B17?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:30] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B19?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:30] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B21?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:31] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B23?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:31] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B25?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:33] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B27?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:33] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B29?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:34] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B31?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:34] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B33?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:34] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B35?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:35] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B37?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:35] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B39?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:36] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B41?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:36] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B43?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:37] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B45?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:37] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B47?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:38] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B49?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:38] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B51?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:39] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B53?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:39] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B55?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:39] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B57?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:40] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B59?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:40] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B61?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:41] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B63?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:41] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B65?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:42] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B67?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:42] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B69?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:43] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B71?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:43] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B73?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:44] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B75?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:44] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B77?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:44] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B79?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:45] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B81?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:45] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B83?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:46] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B85?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:46] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B87?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:46] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B89?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:47] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B91?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:47] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B93?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:48] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B95?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:48] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B97?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:48] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B99?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:49] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values/B101?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 02:01:49] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/values:batchUpdate?alt=json
+[13.05.19 02:01:49] bt_main.py:87 INFO - https://docs.google.com/spreadsheets/d/1-p_P_jNuzax1k2AXD5y_S7uMhDf7m12fJeL8IkKsI-M/preview
+[13.05.19 02:45:00] bt_main.py:91 INFO - ARGV      : ['--updodd']
+[13.05.19 02:45:00] bt_main.py:93 INFO - OPTIONS   : [('--updodd', '')]
+[13.05.19 02:45:00] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_130519.csv
+[13.05.19 02:45:00] bt_funcfile.py:11 INFO - File created successfully - db/join_130519.csv
+[13.05.19 02:45:00] bt_funcfile.py:40 INFO - File read successfully - db/join_130519.csv
+[13.05.19 02:45:00] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 02:45:00] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 02:45:00] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 02:45:00] client.py:777 INFO - Refreshing access_token
+[13.05.19 02:45:02] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4?alt=json
+[13.05.19 02:45:03] bt_main.py:71 INFO - Use spreadsheet 19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4
+[13.05.19 02:45:03] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 03:31:15] bt_main.py:91 INFO - ARGV      : []
+[13.05.19 03:31:15] bt_main.py:93 INFO - OPTIONS   : []
+[13.05.19 03:31:15] bt_main.py:18 INFO - Loading games from vitibet.com
+[13.05.19 03:31:16] bt_analysis.py:51 INFO - URL - http://www.vitibet.com/index.php?clanek=quicktips&sekce=fotbal&lang=en
+[13.05.19 03:31:16] bt_analysis.py:52 INFO - Response code - 200
+[13.05.19 03:31:17] bt_analysis.py:80 INFO - Tips - ['1', '13.05', 'Bologna FC', '0.12', '0.72', 'AC Parma', '-0.53', '-0.4', '1.8', '1', '2', '1', '48 %', '28 %', '25 %']
+[13.05.19 03:31:18] bt_analysis.py:80 INFO - Tips - ['2', '13.05', 'Inter Milano', '0.82', '0.61', 'AC Chievo Verona', '-1.47', '-1.68', '4.6', '1', '2', '0', '71 %', '18 %', '12 %']
+[13.05.19 03:31:18] bt_analysis.py:80 INFO - Tips - ['3', '13.05', 'Brondby IF', '-0.13', '0.43', 'FC Nordsjaeland', '-0.25', '-0.42', '1.0', '10', '2', '2', '41 %', '31 %', '28 %']
+[13.05.19 03:31:19] bt_analysis.py:80 INFO - Tips - ['4', '13.05', 'Stromsgodset IF', '-0.33', '-0.48', 'FK Viking Stavanger', '-0.67', '-0.83', '0.7', '10', '2', '2', '39 %', '32 %', '30 %']
+[13.05.19 03:31:19] bt_analysis.py:80 INFO - Tips - ['5', '13.05', 'Viitorul Constanta', '0.29', '0.81', 'Astra Giurgiu', '0.18', '-1.05', '2.0', '1', '1', '0', '49 %', '27 %', '24 %']
+[13.05.19 03:31:19] bt_analysis.py:82 INFO - Error parsing vitibet.com - list index out of range
+[13.05.19 03:31:20] bt_analysis.py:80 INFO - Tips - ['6', '13.05', 'Besiktas J.K.', '0.93', '1.6', 'Alanyaspor', '-1', '-0.54', '4.1', '1', '3', '1', '66 %', '20 %', '14 %']
+[13.05.19 03:31:20] bt_analysis.py:82 INFO - Error parsing vitibet.com - list index out of range
+[13.05.19 03:31:20] bt_analysis.py:80 INFO - Tips - ['7', '13.05', 'Washington DC United', '0.5', '0.02', 'Kansas City Wizards', '-1', '-1.75', '3.3', '1', '2', '0', '60 %', '22 %', '18 %']
+[13.05.19 03:31:21] bt_analysis.py:80 INFO - Tips - ['8', '13.05', 'Club Sport Emelec', '0.6', '-0.55', 'Barcelona SC', '0.2', '1.09', '-1.2', '02', '1', '2', '27 %', '30 %', '43 %']
+[13.05.19 03:31:22] bt_analysis.py:80 INFO - Tips - ['9', '13.05', 'Skala', '0.5', '0.25', 'KI Klaksvik', '2', '2.6', '-3.9', '2', '1', '3', '15 %', '20 %', '65 %']
+[13.05.19 03:31:22] bt_analysis.py:80 INFO - Tips - ['10', '13.05', 'Vikingur Gota', '1.33', '0.7', 'EB/Streymur', '-0.5', '-1.01', '3.5', '1', '2', '0', '62 %', '22 %', '17 %']
+[13.05.19 03:31:23] bt_analysis.py:80 INFO - Tips - ['11', '13.05', 'Hapoel Eran Hadera', '-0.47', '-0.33', 'Maccabi Haifa', '0.44', '0.81', '-2.1', '2', '1', '2', '23 %', '27 %', '50 %']
+[13.05.19 03:31:23] bt_analysis.py:80 INFO - Tips - ['12', '13.05', 'Valmieras FK', '0.2', '0.05', 'Riga FC', '1', '0.74', '-1.5', '02', '1', '2', '26 %', '29 %', '45 %']
+[13.05.19 03:31:24] bt_analysis.py:80 INFO - Tips - ['13', '13.05', 'River Plate Asuncion', '-0.1', '-0.17', 'Olimpia Asuncion', '2.5', '2.04', '-4.8', '2', '1', '3', '11 %', '17 %', '72 %']
+[13.05.19 03:31:45] bt_analysis.py:80 INFO - Tips - ['14', '13.05', 'Atletico Paranaense', '-', '-', 'Bahia Salvador', '-', '-', '-', '-', '?', '?', 'x', 'x', 'x']
+[13.05.19 03:31:46] bt_analysis.py:80 INFO - Tips - ['15', '13.05', 'Avai FC Florianopolis', '-', '-', 'CSA Alagoano', '-', '-', '-', '-', '?', '?', 'x', 'x', 'x']
+[13.05.19 03:31:46] bt_analysis.py:80 INFO - Tips - ['16', '13.05', 'Fortaleza Esporte Clube', '-', '-', 'Sao Paulo FC', '-', '-', '-', '-', '?', '?', 'x', 'x', 'x']
+[13.05.19 03:31:48] bt_analysis.py:80 INFO - Tips - ['17', '13.05', 'KTP Kotka', '-', '-', 'Ekenas IF', '-', '-', '-', '-', '?', '?', 'x', 'x', 'x']
+[13.05.19 03:31:48] bt_funcfile.py:11 INFO - File created successfully - db/vitibet_130519.csv
+[13.05.19 03:31:48] bt_main.py:23 INFO - Time to loading 32.5 seconds
+[13.05.19 03:31:48] bt_main.py:25 INFO - Loading games from livescore.in
+[13.05.19 03:31:50] bt_analysis.py:98 INFO - Google Chrome run in mode --headless
+[13.05.19 03:31:55] bt_analysis.py:100 INFO - URL - http://www.livescore.in/free/721594/
+[13.05.19 03:31:55] bt_analysis.py:102 INFO - The process of downloading data for 13/05 Mon ...
+[13.05.19 03:31:55] bt_analysis.py:110 INFO - Data for ['13/05 Mo'] uploaded successfully
+[13.05.19 03:31:56] bt_analysis.py:117 INFO - List of games for ['13/05 Mo'] created. Count of games - 105
+[13.05.19 03:31:56] bt_analysis.py:119 INFO - The process of downloading data for 14/05 Tue ...
+[13.05.19 03:31:57] bt_analysis.py:129 INFO - Data ['14/05 Tu'] uploaded successfully
+[13.05.19 03:31:57] bt_analysis.py:135 INFO - List of games for ['14/05 Tu'] created. Total count of games - 190
+[13.05.19 03:32:00] bt_funcfile.py:11 INFO - File created successfully - db/livescore_130519.csv
+[13.05.19 03:32:00] bt_main.py:33 INFO - Time to loading 12.9 seconds
+[13.05.19 03:32:00] bt_main.py:35 INFO - Search for identical games in downloaded data
+[13.05.19 03:32:00] bt_analysis.py:173 INFO - Not found - ['3', '13.05', 'Brondby IF', '-0.13', '0.43', 'FC Nordsjaeland', '-0.25', '-0.42', '1.0', '10', '2', '2', '41 %', '31 %', '28 %', 'NOT_FOUND']
+[13.05.19 03:32:00] bt_analysis.py:173 INFO - Not found - ['10', '13.05', 'Vikingur Gota', '1.33', '0.7', 'EB/Streymur', '-0.5', '-1.01', '3.5', '1', '2', '0', '62 %', '22 %', '17 %', 'NOT_FOUND']
+[13.05.19 03:32:00] bt_analysis.py:173 INFO - Not found - ['12', '13.05', 'Valmieras FK', '0.2', '0.05', 'Riga FC', '1', '0.74', '-1.5', '02', '1', '2', '26 %', '29 %', '45 %', 'NOT_FOUND']
+[13.05.19 03:32:00] bt_analysis.py:173 INFO - Not found - ['14', '13.05', 'Atletico Paranaense', '-', '-', 'Bahia Salvador', '-', '-', '-', '-', '?', '?', 'x', 'x', 'x', 'NOT_FOUND']
+[13.05.19 03:32:00] bt_analysis.py:174 INFO - Number of games found - 13
+[13.05.19 03:32:00] bt_analysis.py:187 INFO - Not found games deleted
+[13.05.19 03:32:00] bt_analysis.py:204 INFO - Index deleted
+[13.05.19 03:32:04] bt_analysis.py:222 INFO - Datetime updated
+[13.05.19 03:32:04] bt_funcfile.py:11 INFO - File created successfully - db/vitilive_130519.csv
+[13.05.19 03:32:04] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_130519.csv
+[13.05.19 03:32:04] bt_analysis.py:245 INFO - Get odds for the match Wz54Dl0f
+[13.05.19 03:32:05] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.07', '3.72', '3.35', 'Winline.ru']
+[13.05.19 03:32:05] bt_analysis.py:283 INFO - The match - Wz54Dl0f did not start
+[13.05.19 03:32:05] bt_analysis.py:245 INFO - Get odds for the match zwDXnIoT
+[13.05.19 03:32:06] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '5.02', '4.17', '1.51', 'Winline.ru']
+[13.05.19 03:32:07] bt_analysis.py:283 INFO - The match - zwDXnIoT did not start
+[13.05.19 03:32:07] bt_analysis.py:245 INFO - Get odds for the match 6q4tQJh6
+[13.05.19 03:32:08] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.54', '4.50', '5.62', 'Winline.ru']
+[13.05.19 03:32:08] bt_analysis.py:283 INFO - The match - 6q4tQJh6 did not start
+[13.05.19 03:32:08] bt_analysis.py:245 INFO - Get odds for the match joNUUJp4
+[13.05.19 03:32:09] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '3.24', '3.87', '1.95', 'Winline.ru']
+[13.05.19 03:32:09] bt_analysis.py:283 INFO - The match - joNUUJp4 did not start
+[13.05.19 03:32:09] bt_analysis.py:245 INFO - Get odds for the match 0IoZ58Qu
+[13.05.19 03:32:11] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.60', '3.68', '5.43', 'Winline.ru']
+[13.05.19 03:32:11] bt_analysis.py:283 INFO - The match - 0IoZ58Qu did not start
+[13.05.19 03:32:11] bt_analysis.py:245 INFO - Get odds for the match pA1Db90K
+[13.05.19 03:32:12] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '6.40', '4.22', '1.43', 'Winline.ru']
+[13.05.19 03:32:13] bt_analysis.py:283 INFO - The match - pA1Db90K did not start
+[13.05.19 03:32:13] bt_analysis.py:245 INFO - Get odds for the match WbofllrH
+[13.05.19 03:32:13] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.14', '8.02', '17.00', 'Winline.ru']
+[13.05.19 03:32:14] bt_analysis.py:283 INFO - The match - WbofllrH did not start
+[13.05.19 03:32:14] bt_funcfile.py:11 INFO - File created successfully - db/join_130519.csv
+[13.05.19 03:32:14] bt_funcfile.py:40 INFO - File read successfully - db/join_130519.csv
+[13.05.19 03:32:14] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 03:32:14] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 03:32:14] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 03:32:14] client.py:777 INFO - Refreshing access_token
+[13.05.19 03:32:16] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4?alt=json
+[13.05.19 03:32:17] bt_main.py:71 INFO - Use spreadsheet 19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4
+[13.05.19 03:32:17] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 03:32:18] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values:batchUpdate?alt=json
+[13.05.19 03:32:19] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 03:32:20] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values:batchUpdate?alt=json
+[13.05.19 03:32:20] bt_main.py:87 INFO - https://docs.google.com/spreadsheets/d/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/preview
+[13.05.19 03:32:22] bt_main.py:111 INFO - Send message in channel
+[13.05.19 03:45:00] bt_main.py:91 INFO - ARGV      : ['--updodd']
+[13.05.19 03:45:00] bt_main.py:93 INFO - OPTIONS   : [('--updodd', '')]
+[13.05.19 03:45:00] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_130519.csv
+[13.05.19 03:45:00] bt_analysis.py:245 INFO - Get odds for the match Wz54Dl0f
+[13.05.19 03:45:01] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.07', '3.72', '3.35', 'Winline.ru']
+[13.05.19 03:45:01] bt_analysis.py:283 INFO - The match - Wz54Dl0f did not start
+[13.05.19 03:45:01] bt_analysis.py:245 INFO - Get odds for the match zwDXnIoT
+[13.05.19 03:45:02] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '5.02', '4.17', '1.51', 'Winline.ru']
+[13.05.19 03:45:03] bt_analysis.py:283 INFO - The match - zwDXnIoT did not start
+[13.05.19 03:45:03] bt_analysis.py:245 INFO - Get odds for the match 6q4tQJh6
+[13.05.19 03:45:05] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.54', '4.50', '5.62', 'Winline.ru']
+[13.05.19 03:45:06] bt_analysis.py:283 INFO - The match - 6q4tQJh6 did not start
+[13.05.19 03:45:06] bt_analysis.py:245 INFO - Get odds for the match joNUUJp4
+[13.05.19 03:45:06] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '3.24', '3.87', '1.95', 'Winline.ru']
+[13.05.19 03:45:07] bt_analysis.py:283 INFO - The match - joNUUJp4 did not start
+[13.05.19 03:45:07] bt_analysis.py:245 INFO - Get odds for the match 0IoZ58Qu
+[13.05.19 03:45:08] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.58', '3.73', '5.54', 'Winline.ru']
+[13.05.19 03:45:08] bt_analysis.py:283 INFO - The match - 0IoZ58Qu did not start
+[13.05.19 03:45:08] bt_analysis.py:245 INFO - Get odds for the match pA1Db90K
+[13.05.19 03:45:09] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '6.40', '4.22', '1.43', 'Winline.ru']
+[13.05.19 03:45:11] bt_analysis.py:283 INFO - The match - pA1Db90K did not start
+[13.05.19 03:45:11] bt_analysis.py:245 INFO - Get odds for the match WbofllrH
+[13.05.19 03:45:12] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.14', '8.02', '17.00', 'Winline.ru']
+[13.05.19 03:45:12] bt_analysis.py:283 INFO - The match - WbofllrH did not start
+[13.05.19 03:45:12] bt_funcfile.py:11 INFO - File created successfully - db/join_130519.csv
+[13.05.19 03:45:12] bt_funcfile.py:40 INFO - File read successfully - db/join_130519.csv
+[13.05.19 03:45:12] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 03:45:12] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 03:45:12] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 03:45:12] client.py:777 INFO - Refreshing access_token
+[13.05.19 03:45:15] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4?alt=json
+[13.05.19 03:45:16] bt_main.py:71 INFO - Use spreadsheet 19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4
+[13.05.19 03:45:16] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 03:45:17] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values:batchUpdate?alt=json
+[13.05.19 03:45:18] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 03:45:19] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values:batchUpdate?alt=json
+[13.05.19 03:45:19] bt_main.py:87 INFO - https://docs.google.com/spreadsheets/d/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/preview
+[13.05.19 04:45:00] bt_main.py:91 INFO - ARGV      : ['--updodd']
+[13.05.19 04:45:00] bt_main.py:93 INFO - OPTIONS   : [('--updodd', '')]
+[13.05.19 04:45:00] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_130519.csv
+[13.05.19 04:45:00] bt_analysis.py:245 INFO - Get odds for the match Wz54Dl0f
+[13.05.19 04:45:01] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.07', '3.72', '3.35', 'Winline.ru']
+[13.05.19 04:45:01] bt_analysis.py:245 INFO - Get odds for the match zwDXnIoT
+[13.05.19 04:45:02] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '5.02', '4.17', '1.51', 'Winline.ru']
+[13.05.19 04:45:02] bt_analysis.py:283 INFO - The match - zwDXnIoT did not start
+[13.05.19 04:45:02] bt_analysis.py:245 INFO - Get odds for the match 6q4tQJh6
+[13.05.19 04:45:03] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.54', '4.50', '5.62', 'Winline.ru']
+[13.05.19 04:45:04] bt_analysis.py:283 INFO - The match - 6q4tQJh6 did not start
+[13.05.19 04:45:04] bt_analysis.py:245 INFO - Get odds for the match joNUUJp4
+[13.05.19 04:45:04] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '3.24', '3.87', '1.95', 'Winline.ru']
+[13.05.19 04:45:05] bt_analysis.py:283 INFO - The match - joNUUJp4 did not start
+[13.05.19 04:45:05] bt_analysis.py:245 INFO - Get odds for the match 0IoZ58Qu
+[13.05.19 04:45:05] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.58', '3.73', '5.54', 'Winline.ru']
+[13.05.19 04:45:06] bt_analysis.py:283 INFO - The match - 0IoZ58Qu did not start
+[13.05.19 04:45:06] bt_analysis.py:245 INFO - Get odds for the match pA1Db90K
+[13.05.19 04:45:07] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '6.40', '4.22', '1.43', 'Winline.ru']
+[13.05.19 04:45:07] bt_analysis.py:283 INFO - The match - pA1Db90K did not start
+[13.05.19 04:45:07] bt_analysis.py:245 INFO - Get odds for the match WbofllrH
+[13.05.19 04:45:08] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.14', '8.02', '17.00', 'Winline.ru']
+[13.05.19 04:45:08] bt_analysis.py:283 INFO - The match - WbofllrH did not start
+[13.05.19 04:45:08] bt_funcfile.py:11 INFO - File created successfully - db/join_130519.csv
+[13.05.19 04:45:08] bt_funcfile.py:40 INFO - File read successfully - db/join_130519.csv
+[13.05.19 04:45:08] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 04:45:08] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 04:45:08] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 04:45:09] client.py:777 INFO - Refreshing access_token
+[13.05.19 04:45:10] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4?alt=json
+[13.05.19 04:45:11] bt_main.py:71 INFO - Use spreadsheet 19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4
+[13.05.19 04:45:11] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 04:45:12] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values:batchUpdate?alt=json
+[13.05.19 04:45:13] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 04:45:13] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values/B3?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 04:45:14] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values:batchUpdate?alt=json
+[13.05.19 04:45:14] bt_main.py:87 INFO - https://docs.google.com/spreadsheets/d/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/preview
+[13.05.19 05:45:00] bt_main.py:91 INFO - ARGV      : ['--updodd']
+[13.05.19 05:45:00] bt_main.py:93 INFO - OPTIONS   : [('--updodd', '')]
+[13.05.19 05:45:00] bt_funcfile.py:40 INFO - File read successfully - db/vitilive_130519.csv
+[13.05.19 05:45:00] bt_analysis.py:245 INFO - Get odds for the match Wz54Dl0f
+[13.05.19 05:45:01] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '2.07', '3.72', '3.35', 'Winline.ru']
+[13.05.19 05:45:01] bt_analysis.py:245 INFO - Get odds for the match zwDXnIoT
+[13.05.19 05:45:02] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '5.02', '4.17', '1.51', 'Winline.ru']
+[13.05.19 05:45:03] bt_analysis.py:283 INFO - The match - zwDXnIoT did not start
+[13.05.19 05:45:03] bt_analysis.py:245 INFO - Get odds for the match 6q4tQJh6
+[13.05.19 05:45:04] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.54', '4.50', '5.62', 'Winline.ru']
+[13.05.19 05:45:04] bt_analysis.py:283 INFO - The match - 6q4tQJh6 did not start
+[13.05.19 05:45:04] bt_analysis.py:245 INFO - Get odds for the match joNUUJp4
+[13.05.19 05:45:05] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '3.24', '3.87', '1.95', 'Winline.ru']
+[13.05.19 05:45:05] bt_analysis.py:283 INFO - The match - joNUUJp4 did not start
+[13.05.19 05:45:05] bt_analysis.py:245 INFO - Get odds for the match 0IoZ58Qu
+[13.05.19 05:45:06] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.58', '3.73', '5.54', 'Winline.ru']
+[13.05.19 05:45:06] bt_analysis.py:283 INFO - The match - 0IoZ58Qu did not start
+[13.05.19 05:45:06] bt_analysis.py:245 INFO - Get odds for the match pA1Db90K
+[13.05.19 05:45:07] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '6.40', '4.22', '1.43', 'Winline.ru']
+[13.05.19 05:45:07] bt_analysis.py:283 INFO - The match - pA1Db90K did not start
+[13.05.19 05:45:07] bt_analysis.py:245 INFO - Get odds for the match WbofllrH
+[13.05.19 05:45:08] bt_analysis.py:269 INFO - ['', '', '', '', '', '', '', '', '', '', '', '', '1.14', '7.99', '17.00', 'Winline.ru']
+[13.05.19 05:45:09] bt_analysis.py:283 INFO - The match - WbofllrH did not start
+[13.05.19 05:45:09] bt_funcfile.py:11 INFO - File created successfully - db/join_130519.csv
+[13.05.19 05:45:09] bt_funcfile.py:40 INFO - File read successfully - db/join_130519.csv
+[13.05.19 05:45:09] bt_funcfile.py:40 INFO - File read successfully - db/list_googlesheets.csv
+[13.05.19 05:45:09] discovery.py:272 INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+[13.05.19 05:45:09] transport.py:157 INFO - Attempting refresh to obtain initial access_token
+[13.05.19 05:45:09] client.py:777 INFO - Refreshing access_token
+[13.05.19 05:45:11] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4?alt=json
+[13.05.19 05:45:11] bt_main.py:71 INFO - Use spreadsheet 19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4
+[13.05.19 05:45:12] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 05:45:12] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values:batchUpdate?alt=json
+[13.05.19 05:45:13] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4:batchUpdate?alt=json
+[13.05.19 05:45:14] discovery.py:873 INFO - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values/B3?valueRenderOption=FORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING&alt=json
+[13.05.19 05:45:14] discovery.py:873 INFO - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/values:batchUpdate?alt=json
+[13.05.19 05:45:14] bt_main.py:87 INFO - https://docs.google.com/spreadsheets/d/19oLkP_hmCDoMt-W45kidag3qBB5woFlhpAnmUeTI3B4/preview
